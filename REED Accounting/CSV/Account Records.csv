@@ -1,0 +1,44 @@
+Transaction Category,Transaction Date,Transaction Type,Recipient,Payer,Amount (debit),Amount (credit)
+fine,1580-01-01,debit,Lincoln's Inn Accountant,Mr. Southwell,320,
+service,1580-01-01,credit,William Perryn,Lincoln's Inn Accountant,,320
+service,1581-02-03,credit,William Perryn,Lincoln's Inn Accountant,,320
+service,1582-02-03,credit,William Perryn,Lincoln's Inn Accountant,,320
+fine,1583-01-01,debit,Lincoln's Inn Accountant,Mr. Albanye the younger,320,
+service,1583-02-03,credit,William Perryn,Lincoln's Inn Accountant,,320
+service,1579-02-13,credit,,Lincoln's Inn Accountant,,14
+service,1579-02-13,credit,,Lincoln's Inn Accountant,,14
+goods,1579-02-13,credit,,Gray's Inn Accountant,,60
+goods,1579-02-13,credit,,Gray's Inn Accountant,,14
+goods,1579-02-13,credit,,Gray's Inn Accountant,,256
+goods,1612-01-27,debit,Thomas Watson,Lincoln's Inn Accountant,12000,
+goods,1612-01-27,debit,Thomas Pittes,Lincoln's Inn Accountant,2400,
+goods,1612-01-27,debit,Mr. Anton,Lincoln's Inn Accountant,43836,
+goods,1612-01-27,debit,Mr Smith,Lincoln's Inn Accountant,15600,
+service,1612-01-27,debit,Mr Morrice,Lincoln's Inn Accountant,24000,
+service,1612-01-27,debit,,Lincoln's Inn Accountant,9600,
+goods,1612-01-27,debit,,Lincoln's Inn Accountant,3840,
+service,1612-01-27,debit,,Lincoln's Inn Accountant,28800,
+service,1612-01-27,debit,,Lincoln's Inn Accountant,13200,
+service,1612-01-27,debit,,Lincoln's Inn Accountant,24000,
+service,1612-01-27,debit,,Lincoln's Inn Accountant,10800,
+goods,1612-01-27,debit,,Lincoln's Inn Accountant,45600,
+service,1612-01-27,debit,,Lincoln's Inn Accountant,2400,
+service,1612-01-27,debit,,Lincoln's Inn Accountant,2400,
+goods,1612-01-27,debit,,Lincoln's Inn Accountant,120,
+goods,1612-01-27,debit,,Lincoln's Inn Accountant,720,
+service,1612-01-27,debit,,Lincoln's Inn Accountant,144,
+service,1612-01-27,debit,,Lincoln's Inn Accountant,6,
+goods,1612-01-27,debit,,Lincoln's Inn Accountant,72,
+service,1612-01-27,debit,,Lincoln's Inn Accountant,18,
+goods,1612-01-27,debit,,Lincoln's Inn Accountant,68,
+goods,1612-01-27,debit,,Lincoln's Inn Accountant,6,
+service,1612-01-27,debit,,Lincoln's Inn Accountant,12,
+fine,1613-06-11,credit,John Hopkins,masters of the Bench at Middle Temple,,10200
+fine,1613-06-11,credit,John Hopkins,masters of the utter bar at Middle Temple,,15840
+fine,1613-06-11,credit,John Hopkins,gentlemen under the bar at Middle Temple,,5040
+fine,1613-06-12,credit,Johns Hopkins,25 masters of the Bench at Middle Temple,,15000
+fine,1613-06-12,credit,Johns Hopkins,128 masters of the utter bar at Middle Temple,,46080
+fine,1613-06-12,credit,Johns Hopkins,200 gentlemen under the bar at Middle Temple,,36000
+service,1613-06-12,debit,Mr Daston,John Hopkins,84000,
+service,1613-06-12,debit,Mr Baldwyn, the undertreasurer of Middle Temple,John Hopkins,7200,
+service,1613-06-12,debit,John Hoplins,John Hopkins,2427,
