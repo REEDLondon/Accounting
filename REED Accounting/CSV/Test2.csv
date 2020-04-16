@@ -1,0 +1,35 @@
+Transaction Category,Transaction Type,Recipient,Payer,Amount (debit),Amount (credit)
+fine,debit,Lincoln's Inn Accountant,Mr. Southwell,320,
+service,credit,William Perryn,Lincoln's Inn Accountant,,320
+service,credit,William Perryn,Lincoln's Inn Accountant,,320
+service,credit,,,,320
+fine,debit,,,320,
+service,credit,,,,320
+service,credit,,,,14
+service,credit,,,,14
+goods,credit,,,,60
+goods,credit,,,,14
+goods,credit,,,,256
+goods,debit,Thomas Watson,Lincoln's Inn Accountant,12000,
+goods,debit,Thomas Pittes,Lincoln's Inn Accountant,2400,
+goods,debit,Mr. Anton,Lincoln's Inn Accountant,43836,
+goods,debit,Mr Smith,Lincoln's Inn Accountant,15600,
+service,debit,Mr Morrice,Lincoln's Inn Accountant,24000,
+service,debit,,Lincoln's Inn Accountant,9600,
+goods,debit,,Lincoln's Inn Accountant,3840,
+service,debit,,Lincoln's Inn Accountant,28800,
+service,debit,,Lincoln's Inn Accountant,13200,
+service,debit,,Lincoln's Inn Accountant,24000,
+,debit,,Lincoln's Inn Accountant,10800,
+,debit,,Lincoln's Inn Accountant,45600,
+,debit,,Lincoln's Inn Accountant,2400,
+,debit,,Lincoln's Inn Accountant,2400,
+,debit,,Lincoln's Inn Accountant,120,
+,debit,,Lincoln's Inn Accountant,720,
+,debit,,Lincoln's Inn Accountant,144,
+,debit,,Lincoln's Inn Accountant,6,
+,debit,,Lincoln's Inn Accountant,72,
+,debit,,Lincoln's Inn Accountant,18,
+,debit,,Lincoln's Inn Accountant,68,
+,debit,,Lincoln's Inn Accountant,6,
+,debit,,Lincoln's Inn Accountant,12,
