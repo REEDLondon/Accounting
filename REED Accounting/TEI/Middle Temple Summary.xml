@@ -373,6 +373,35 @@
                      Accountant</persName> upon a bond due the same day</desc>
             </event>
          </listEvent>
+         <listEvent>
+            <event type="credit" ana="#fine" when="1614-04-14">
+               <desc> Received at several times of <persName ref="#payer">John Hopkins</persName>
+                  and <persName ref="#payer">Fancis Barker</persName> the tacation rolles that were
+                  collected by them were paid to the <persName ref="#recipient">Middle Temple
+                     Accountant</persName> in the amount of <measure n=""> pence</measure>
+               </desc>
+            </event>
+            <event type="credit" ana="#fine" when="1614-04-14">
+               <desc>
+                  of the stop of the house upon <persName ref="#payer">Mr Walrond</persName> the <persName ref="#recipient">Middle Temple
+                        Accountant</persName> received <measure n=""> pence</measure></desc>
+            </event>
+            <event type="credit" ana="#fine" when="1614-04-14">
+               <desc>
+                  of <persName ref="#payer">Mr Hibbard</persName> the <persName ref="#recipient">Middle Temple
+                     Accountant</persName> received <measure n=""> pence</measure></desc>
+            </event>
+            <event type="credit" ana="#fine" when="1614-04-14">
+               <desc>
+                  of <persName ref="#payer">Mr Powell</persName> the <persName ref="#recipient">Middle Temple
+                     Accountant</persName> received <measure n=""> pence</measure></desc>
+            </event>
+            <event type="credit" ana="#fine" when="1614-04-14">
+               <desc>
+                  of <persName ref="#payer">Mistress Stephens</persName> the <persName ref="#recipient">Middle Temple
+                     Accountant</persName> received <measure n=""> pence</measure></desc>
+            </event>
+         </listEvent>
       </body>
    </text>
 </TEI>
