@@ -27,6 +27,9 @@
                <category xml:id="fine">
                   <catDesc>Fines</catDesc>
                </category>
+               <category xml:id="obligation">
+                  <catDesc>Financial Obligations</catDesc>
+               </category>
             </taxonomy>
             <taxonomy>
                <category xml:id="payer">
