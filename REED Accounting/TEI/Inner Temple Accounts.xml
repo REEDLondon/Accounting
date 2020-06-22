@@ -1,0 +1,1712 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="goods">
+                  <catDesc>Goods</catDesc>
+               </category>
+               <category xml:id="service">
+                  <catDesc>Services</catDesc>
+               </category>
+               <category xml:id="fine">
+                  <catDesc>Fines</catDesc>
+               </category>
+               <category xml:id="obligation">
+                  <catDesc>Financial Obligations</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy>
+               <category xml:id="payer">
+                  <catDesc>Payer</catDesc>
+               </category>
+               <category xml:id="recipient">
+                  <catDesc>Recipient</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listEvent>
+            <event type="debit" ana="#service" when="1606-11-01">
+               <desc> Item paid to the <persName ref="#recipient"> Musicians</persName> for their
+                  fee on Alhollandai 1606 in the amount of <measure n="240">240 pence</measure> by
+                     <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#goods" when="1606-11-01">
+               <desc> Item paid for two staff torches for the revels on Candlemas Eve in the amount
+                  of <measure n="24"> 24 pence</measure> by <persName ref="#payer"> Inner
+                     Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1606-11-01">
+               <desc> Item paid for a play on Candlemas Day 1606 in the amount of <measure n="1200">
+                     1200 pence</measure> by <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1606-11-01">
+               <desc> Item paid to the <persName ref="#recipient"> Musicians</persName> for their
+                  fee on Candlemas Eve in the amount of <measure n="240"> 240 pence</measure> by
+                     <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#goods" when="1606-11-01">
+               <desc> Item paid for four staff torches for the revels on Candlemas Day in the amount
+                  of <measure n="48">48 pence</measure> by <persName ref="#payer"> Inner
+                     Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1606-11-01">
+               <desc> Item paid to <persName ref="#recipient">Raphe Smith [the carpenter]</persName>
+                  for pulling down the callery in the hall where the Musicians used to stand in the
+                  amount of <measure n="30"> 30 pence</measure> by <persName ref="#payer"> Inner
+                     Temple</persName>
+               </desc>
+            </event>
+         </listEvent>
+         <listEvent>
+            <event type="debit" ana="#service" when="1607-11-01">
+               <desc> Item paid for the <persName ref="#recipient"> musicians fee</persName> in the
+                  amount of <measure n="240"> 240pence</measure> by <persName ref="#payer"> Inner
+                     Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#goods" when="1607-11-01">
+               <desc> Item paid for two staff torches for the revels on Candlemas Eve in the amount
+                  of <measure n="24"> 24pence</measure> by <persName ref="#payer"> Inner
+                     Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1607-11-01">
+               <desc> Item paid for a play on Candlemas Day called Oxford Tragedy in the amount of
+                     <measure n="1200">1200 pence</measure> by <persName ref="#payer"> Inner
+                     Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1607-11-01">
+               <desc> Item paid for two staff torches for the revels on Candlemas day in the amount
+                  of <measure n="24">24 pence</measure> by <persName ref="#payer"> Inner
+                     Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1607-11-01">
+               <desc> Item paid to the <persName ref="#recipient">Musicians</persName> for their fee
+                  on Candlemas Day in the amount of <measure n="240"> 240 pence</measure> by
+                     <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+         </listEvent>
+         <listEvent>
+            <event type="debit" ana="#service" when="1608-11-01">
+               <desc> Item paid for a play on Allhollen Day in 1608 in the amount of <measure
+                     n="1140"> 1140 pence</measure> by <persName ref="#payer"> Inner
+                     Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1608-11-01">
+               <desc> Item paid to the <persName ref="#recipient">Musicians</persName> on Allhollen
+                  Day in 1608 in the amount of <measure n="240">240 pence</measure> by <persName
+                     ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#goods" when="1608-11-01">
+               <desc> Item paid for three dozen three torches spent this whole year at revels at ten
+                  shilings the dozen in the total amount of <measure n="390">390 pence</measure> by
+                     <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1608-11-01">
+               <desc> Item given to the gentlemens revels in Michaelmas term three reveling nights
+                  in the amount of <measure n="720">720 pence</measure> by <persName ref="#payer">
+                     Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1608-11-01">
+               <desc> Item paid for for a play on Candlemas Day last 1608 in the amount of <measure
+                     n="1200"> 1200 pence</measure> by <persName ref="#payer"> Inner
+                     Temple</persName>
+               </desc>
+            </event>
+         </listEvent>
+         <listEvent>
+            <event type="debit" ana="#service" when="1609-11-01">
+               <desc> Item paid for a play on Allholand Day 1609 in the amount of <measure n="1200"
+                     >1200 pence</measure> by <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1609-11-01">
+               <desc> Item paid for music on Allholand day 1609 to <persName ref="#recipient"
+                     >Musicians</persName> in the amount of <measure n="240">240 pence</measure> by
+                     <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1609-11-01">
+               <desc> Item paid for a play on Candlemas Day in the amount of <measure n="1200">1200
+                     pence</measure> by <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1609-11-01">
+               <desc> Item paid for music on Candlemas Day to the <persName ref="#recipient"
+                     >Musicians</persName> in the amount of <measure n="240">240 pence</measure> by
+                     <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+         </listEvent>
+         <listEvent>
+            <event type="debit" ana="#goods" when="1611-11-01">
+               <desc> Item paid for two staff torches for the revels on Alhollowday in the amount of
+                     <measure n="24">24 pence</measure> by <persName ref="#payer"> Inner
+                     Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1611-11-01">
+               <desc> Item paid to the <persName ref="#recipient">Musicians</persName> on
+                  alhollowday in the amount of <measure n="240">240 pence</measure> by <persName
+                     ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1611-11-01">
+               <desc> Item paid for a <persName ref="#recipient"> Consort of Music</persName> on
+                  alhollowday in the amount of <measure n="600">600 pence</measure> by <persName
+                     ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1611-11-01">
+               <desc> Item paid for antics or puppets on alhollowday in the amount of <measure
+                     n="480">480 pence</measure> by <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1611-11-05">
+               <desc> Item paid for the <persName ref="#recipient">Musicians</persName> fee in the
+                  amount of <measure n="160"> 160 pence</measure> by <persName ref="#payer"> Inner
+                     Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#goods" when="1611-11-01">
+               <desc> Item paid for two staff torches on Candlemas day in the amount of <measure
+                     n="24">24 pence</measure> by <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1611-11-01">
+               <desc> Item paid for a play on Candlemas day in the amount of <measure n="1440"> 1440
+                     pence</measure> by <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1611-11-01">
+               <desc> Item paid for music on Candlemas day was paid to the <persName
+                     ref="#recipient">Musicians</persName> in the amount of <measure n="240">240
+                     pence</measure> by <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+         </listEvent>
+         <listEvent>
+            <event type="debit" ana="#goods" when="1612-11-01">
+               <desc> Item paid for two staff torches for the revels on Alhollowday in the amount of
+                     <measure n="24">24 pence</measure> by <persName ref="#payer"> Inner
+                     Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1612-11-01">
+               <desc> Item paid to <persName ref="#recipient">Musicians</persName> for their fee on
+                  Alhollowday in the amount of <measure n="240">240 pence</measure> by <persName
+                     ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1612-11-01">
+               <desc> Item paid for a play on Alhollowday in the amount of <measure n="1200">1200
+                     pence</measure> by <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1612-11-05">
+               <desc> Item paid to the <persName ref="#recipient">Musicians</persName> for their fee
+                  the fifth of November in the amount of <measure n="160"> 160 pence</measure> by
+                     <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1612-11-01">
+               <desc> Item paid for a play on Candlemas day in the amount of <measure n="1600"> 1600
+                     pence</measure> by <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1612-11-01">
+               <desc> Item paid to another <persName ref="#recipient">company of players</persName>
+                  which were appointed to play Candlemas day in the amount of <measure n="360"> 360
+                     pence</measure> by <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#goods" when="1612-11-01">
+               <desc> Item paid for two staff torches for candlemas day in the amount of <measure
+                     n="24">24 pence</measure> by <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1612-11-01">
+               <desc> Item paid for the <persName ref="#recipient">Musicians</persName> fee on
+                  candlemas day in the amount of <measure n="240">240 pence</measure> by <persName
+                     ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#goods" when="1612-11-01">
+               <desc> Item paid for one dozen of torches for the revels in Michaelmas term 1612 in
+                  the amount of <measure n="120">120 pence</measure> by <persName ref="#payer">
+                     Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#goods" when="1612-11-01">
+               <desc> Item paid for six torches for the benchers to see the maske at Elye house in
+                  the amount of <measure n="60"> 60 pence</measure> by <persName ref="#payer"> Inner
+                     Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#goods" when="1612-11-01">
+               <desc> Item paid for two staff torches another time to go to Grays Inn in the amount
+                  of <measure n="24">24 pence</measure> by <persName ref="#payer"> Inner
+                     Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1612-11-01">
+               <desc> Item paid to <persName ref="#recipient">Mr Lewes Hele</persName>at two
+                  severall times towards the maske business in the amount of <measure n="16800">
+                     16800 pence</measure> by <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1612-11-01">
+               <desc> Item paid to <persName ref="#recipient">Mr Fenner</persName> towards the same
+                  business [the maske]in the amount of <measure n="2400">2400 pence</measure> by
+                     <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1612-11-01">
+               <desc> Item paid to a <persName ref="#recipient">messenger</persName> which Mr Fenner
+                  provided to fetch Mr Beamont in the amount of <measure n=""> pence</measure> by
+                     <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1612-11-01">
+               <desc> Item paid to <persName ref="#recipient">John Hodgkins</persName> for boat hire
+                  to and fro to Winchester house about the maske business in the amount of <measure
+                     n="30">30 pence</measure> by <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+         </listEvent>
+         <listEvent>
+            <event type="debit" ana="#service" when="1613-11-01">
+               <desc> Item paid for a play upon all saints day 1613 in the amount of <measure
+                     n="1600"> 1600 pence</measure> by <persName ref="#payer"> Inner
+                     Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#goods" when="1613-11-01">
+               <desc> Item paid for two staff torches on all saintes day 1613 in the amount of
+                     <measure n="24">24 pence</measure> by <persName ref="#payer"> Inner
+                     Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1613-11-01">
+               <desc> Item paid for the <persName ref="#recipient">Musicians</persName>fee on all
+                  saints day 1613 in the amount of <measure n="240">240 pence</measure> by <persName
+                     ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1613-11-05">
+               <desc> Item paid for the <persName ref="#recipient">Musicians</persName> fee on the
+                  fifth of November in the amount of <measure n="160"> 160 pence</measure> by
+                     <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1613-11-01">
+               <desc> Item paid for a play one candlemas day 1613 in the amount of <measure n="1600"
+                     > 1600 pence</measure> by <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#goods" when="1613-11-01">
+               <desc> Item paid for two staff torches on candlemas day 1613 in the amount of
+                     <measure n="24">24 pence</measure> by <persName ref="#payer"> Inner
+                     Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1613-11-01">
+               <desc> Item paid for the <persName ref="#recipient">Musicians</persName>fee candlemas
+                  day 1613 in the amount of <measure n="240">240 pence</measure> by <persName
+                     ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+         </listEvent>
+         <listEvent>
+            <event type="debit" ana="#service" when="1614-11-01">
+               <desc> Item paid to the <persName ref="#recipient">King Majestys servants</persName>
+                  for a play upon all saints day 1614 in the amount of <measure n="1440"> 1440
+                     pence</measure> by <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#goods" when="1614-11-01">
+               <desc> Item paid for two staff torches on all saints day in the amount of <measure
+                     n="24">24 pence</measure> by <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1614-11-01">
+               <desc> Item paid to <persName ref="#recipient">John Hopper</persName> for the
+                  musicians fee on all saints day in the amount of <measure n="240">240
+                     pence</measure> by <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1614-11-01">
+               <desc> Item paid to <persName ref="#recipient"> his maijesties servants</persName>
+                  for a play upon candlemas day last past in the amount of <measure n="1600">1600
+                     pence</measure> by <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#goods" when="1614-11-01">
+               <desc> Item paid for two staff torches candlemass day in the amount of <measure
+                     n="24">24 pence</measure> by <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1614-11-01">
+               <desc> Item paid for the <persName ref="#recipient">Musicians</persName> fee
+                  candlemas dayin the amount of <measure n="240">240 pence</measure> by <persName
+                     ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1614-11-01">
+               <desc> Item paid to the <persName ref="#recipient">gentleman revelers</persName> upon
+                  candlemas day at nightin the amount of <measure n="480">480 pence</measure> by
+                     <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+         </listEvent>
+         <listEvent>
+            <event type="debit" ana="#service" when="1614-12-17">
+               <desc> the music was paid to the <persName ref="#recipient">musicians</persName> in
+                  the amount of <measure n="2400"> 2400 pence</measure> by the <persName
+                     ref="#payer"> Christmas Stewards of Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1614-12-17">
+               <desc> the music was further paid to the <persName ref="#recipient"
+                     >musicians</persName> in the amount of <measure n="480">480 pence</measure> by
+                  the <persName ref="#payer"> Christmas Stewards of Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#goods" when="1614-12-24">
+               <desc> item painting of the music room in the amount of <measure n="72">72
+                     pence</measure> was paid by the <persName ref="#payer"> Christmas Stewards of
+                     Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1614-12-24">
+               <desc> allowance to the music was paid to the <persName ref="#recipient"
+                     >musicians</persName> in the amount of <measure n="2880">2880 pence</measure>
+                  by the <persName ref="#payer"> Christmas Stewards of Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1614-12-31">
+               <desc> item for the music was paid to the <persName ref="#recipient"
+                     >musicians</persName> in the amount of <measure n="2640">2640 pence</measure>
+                  by the <persName ref="#payer"> Christmas Stewards of Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1614-01-07">
+               <desc> the music was paid to the <persName ref="#recipient">musicians</persName> in
+                  the amount of <measure n="1320">1320 pence</measure> by the <persName ref="#payer"
+                     > Christmas Stewards of Inner Temple</persName>
+               </desc>
+            </event>
+         </listEvent>
+         <listEvent>
+            <event type="debit" ana="#service" when="1615-11-01">
+               <desc> Item paid to the <persName ref="#recipient">kings majesty servants</persName>
+                  for a play upon Alhallow day 1615 in the amount of <measure n="1200"> 1200
+                     pence</measure> by <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#goods" when="1615-11-01">
+               <desc> Item paid for two staff torches on Alhallow day 1615 in the amount of <measure
+                     n="24"> 24 pence</measure> by <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1615-11-01">
+               <desc> Item paid to <persName ref="#recipient">John Hopper</persName>for the
+                  musicians fee on Alhallow day 1615 in the amount of <measure n="240"> 240
+                     pence</measure> by <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1615-11-05">
+               <desc> Item paid for the <persName ref="#recipient">musicians</persName>fee the fifth
+                  of Novemeber in the amount of <measure n="160"> 160 pence</measure> by <persName
+                     ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#goods" when="1615-11-01">
+               <desc> Item paid for two dozen torches for revels the fith twelfth eighteenth and
+                  twenty fifth of november in the amount of <measure n="240">240 pence</measure> by
+                     <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1615-11-01">
+               <desc> Item paid for a play upon Candlemas day in the amount of <measure n="1600">
+                     1600 pence</measure> by <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1615-11-01">
+               <desc> Item paid for the <persName ref="#recipient">musicians</persName> fee
+                  candlemas day in the amount of <measure n="240"> 240 pence</measure> by <persName
+                     ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#goods" when="1615-11-01">
+               <desc> Item paid to two staff torches candlemas day in the amount of <measure n="24">
+                     24 pence</measure> by <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#obligation" when="1615-11-01">
+               <desc> Item paid to <persName ref="#recipient">Nicholas Polhill</persName> for a debt
+                  remaining due onto him from this house about the maske to court in the amount of
+                     <measure n="4800"> 4800 pence</measure> by <persName ref="#payer"> Inner
+                     Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#obligation" when="1615-11-01">
+               <desc> Item paid to <persName ref="#recipient">Mr Jordan [of the bench]</persName>
+                  toward the charge of the barriers in the amount of <measure n="12000"> 12000
+                     pence</measure> by <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+         </listEvent>
+         <listEvent>
+            <event type="debit" ana="#service" when="1615-12-20">
+               <desc> in mending of the cloth for the music room the amount of <measure n="18">18
+                     pence</measure> was paid by the <persName ref="#payer"> Christmas Stewards of
+                     Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1615-12-20">
+               <desc> the music was paid to the <persName ref="#recipient">musicians</persName> in
+                  the amount of <measure n="2540">2540 pence</measure> by the <persName ref="#payer"
+                     > Christmas Stewards of Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1615-12-27">
+               <desc> the music for the week was paid to the <persName ref="#recipient"
+                     >musicians</persName> in the amount of <measure n="6500">6500 pence</measure>
+                  by the <persName ref="#payer"> Christmas Stewards of Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1615-01-03">
+               <desc> to the <persName ref="#recipient">players</persName> in the amount of <measure
+                     n="240">240 pence</measure> by the <persName ref="#payer"> Christmas Stewards
+                     of Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#goods" when="1615-01-03">
+               <desc> the drum and fyfe were paid in the amount of <measure n="360">360
+                     pence</measure> by the <persName ref="#payer"> Christmas Stewards of Inner
+                     Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1615-01-03">
+               <desc> the music was paid to <persName ref="#recipient">Mr Chettwood</persName> in
+                  the amount of <measure n="5502">5502 pence</measure> by the <persName ref="#payer"
+                     > Christmas Stewards of Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1615-01-03">
+               <desc> drum and fyfe to <persName ref="#recipient">Mr Chettwood</persName> in the
+                  amount of <measure n="312"> 312 pence</measure> by the <persName ref="#payer">
+                     Christmas Stewards of Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1615-01-03">
+               <desc> the music was paid to the <persName ref="#recipient">musicians</persName> in
+                  the amount of <measure n="5190">5190 pence</measure> by the <persName ref="#payer"
+                     > Christmas Stewards of Inner Temple</persName>
+               </desc>
+            </event>
+         </listEvent>
+         <listEvent>
+            <event type="debit" ana="#service" when="1616-11-01">
+               <desc> Item paid to the <persName ref="#recipient">kinges Majesties
+                     servants</persName>for a play upon allhallowtide day 1616 in the amount of
+                     <measure n="1600"> 1600 pence</measure> by <persName ref="#payer"> Inner
+                     Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#goods" when="1616-11-01">
+               <desc> Item paid for two staff torches the same day in the amount of <measure n="24">
+                     24 pence</measure> by <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1616-11-01">
+               <desc> Item paid to <persName ref="#recipient">John Hopper</persName>for the
+                  musicians fee on Alhallowtide day 1616 in the amount of <measure n="240"> 240
+                     pence</measure> by <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1616-11-05">
+               <desc> Item paid for the <persName ref="#recipient">musicians</persName> fee on the
+                  fifth of november in the amount of <measure n="160">160 pence</measure> by
+                     <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#goods" when="1616-11-01">
+               <desc> Item paid to <persName ref="#recipient">Francis Lownds</persName>for the hire
+                  of naperie and plate on candlemas day in the amount of <measure n="320"> 320
+                     pence</measure> by <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1616-11-01">
+               <desc> Item paid to <persName ref="#recipient">John Hopper</persName>for the
+                  musicians fee on candlemas day in the amount of <measure n="240">240
+                     pence</measure> by <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#goods" when="1616-11-01">
+               <desc> Item paid for two staff torches candlemas day in the amount of <measure n="24"
+                     > 24 pence</measure> by <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#obligation" when="1616-11-01">
+               <desc> Item paid to <persName ref="#recipient">Mr Brownlowe [of the
+                  bench]</persName>for money borrowed towards the charge of the barriers in the
+                  amount of <measure n="12000"> 12000 pence</measure> by <persName ref="#payer">
+                     Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#obligation" when="1616-11-01">
+               <desc> Item paid to <persName ref="#recipient">Sir Thomas Coventry</persName>for
+                  money lent towards the barriers being part of debt of fifty pounds in the amount
+                  of <measure n="4800"> 4800 pence</measure> by <persName ref="#payer"> Inner
+                     Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#obligation" when="1616-11-01">
+               <desc> Item paid to <persName ref="#recipient">Sir Thomas Coventry</persName>in the
+                  amount of <measure n="7200"> 7200 pence</measure> by <persName ref="#payer"> Inner
+                     Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1616-11-01">
+               <desc> Item paid to <persName ref="#recipient">Mr Martin [of the Middle
+                  Temple] and Giles [a Taylor by the
+                  appointment of Mr Jorden]</persName> in the amount of <measure n="9600"> 9600
+                     pence</measure> by <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1616-11-01">
+               <desc> Item paid to <persName ref="#recipient">Richard Mayer</persName>for collecting
+                  of the barriers money in the amount of <measure n="600"> 600 pence</measure> by
+                     <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+         </listEvent>
+         <listEvent>
+            <event type="debit" ana="#service" when="1616-12-18">
+               <desc> for mending the curtins about the music in the amount of <measure n="64"> 64
+                     pence</measure> by the <persName ref="#payer"> Christmas Stewards of Inner
+                     Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1616-12-18">
+               <desc> the music was paid to the <persName ref="#recipient">musicians</persName> in
+                  the amount of <measure n="1884">1884 pence</measure> by the <persName ref="#payer"
+                     > Christmas Stewards of Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1616-12-25">
+               <desc> the music and voices was paid to the <persName ref="#recipient"
+                     >musicians</persName> in the amount of <measure n="5620"> 5620 pence</measure>
+                  by the <persName ref="#payer"> Christmas Stewards of Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1616-01-08">
+               <desc> the music was paid to the <persName ref="#recipient">musicians</persName> in
+                  the amount of <measure n="982">982 pence</measure> by the <persName ref="#payer">
+                     Christmas Stewards of Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1616-01-08">
+               <desc> the loud music of the last year was paid to the <persName ref="#recipient"
+                     >musicians</persName> in the amount of <measure n="720"> 720 pence</measure> by
+                  the <persName ref="#payer"> Christmas Stewards of Inner Temple</persName>
+               </desc>
+            </event>
+         </listEvent>
+         <listEvent>
+            <event type="debit" ana="#service" when="1617-11-01">
+               <desc> Item paid to the <persName ref="#recipient">musicians</persName> upon alhallow
+                  day in the amount of <measure n="160">160 pence</measure> by <persName
+                     ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1617-11-05">
+               <desc> Item paid to the <persName ref="#recipient">musicians</persName> on the fifth
+                  of november in the amount of <measure n="160"> 160pence</measure> by <persName
+                     ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1617-11-01">
+               <desc> Item paid to the <persName ref="#recipient">musicians</persName>on Candlemas
+                  day in the amount of <measure n="160"> 160 pence</measure> by <persName
+                     ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1617-11-01">
+               <desc> Item paid to the <persName ref="#recipient">musicians</persName>for their fee
+                  one whole year in the amount of <measure n="480">480 pence</measure> by <persName
+                     ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1617-11-01">
+               <desc> Item paid for a play on candlemas day in the amount of <measure n="1680"> 1680
+                     pence</measure> by <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+         </listEvent>
+         <listEvent>
+            <event type="debit" ana="#service" when="1617-12-19">
+               <desc> the music was paid to the <persName ref="#recipient">musicians</persName> in
+                  the amount of <measure n="2264">2264 pence</measure> by the <persName ref="#payer"
+                     > Christmas Stewards of Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1617-12-26">
+               <desc> the music was paid to the <persName ref="#recipient">musicians</persName> in
+                  the amount of <measure n="2324"> 2324 pence</measure> by the <persName
+                     ref="#payer"> Christmas Stewards of Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1617-01-02">
+               <desc> the music was paid to the <persName ref="#recipient">musicians</persName> in
+                  the amount of <measure n="2364">2364 pence</measure> by the <persName ref="#payer"
+                     > Christmas Stewards of Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1617-01-09">
+               <desc> the music was paid to the <persName ref="#recipient">musicians</persName> in
+                  the amount of <measure n="1176"> 1176 pence</measure> by the <persName
+                     ref="#payer"> Christmas Stewards of Inner Temple</persName>
+               </desc>
+            </event>
+         </listEvent>
+         <listEvent>
+            <event type="debit" ana="#service" when="1619-11-01">
+               <desc> Item paid for a play on Alhallowday 1619 in the amount of <measure n="1680">
+                     1680 pence</measure> by <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1619-11-01">
+               <desc> Item paid for a play on candlemas day last 1619 in the amount of <measure
+                     n="1680"> 1680 pence</measure> by <persName ref="#payer"> Inner
+                     Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1619-11-01">
+               <desc> Item paid to the <persName ref="#recipient">musicians</persName> for their
+                  whole years fee in the amount of <measure n="480"> 480 pence</measure> by
+                     <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1619-11-05">
+               <desc> Item paid to the <persName ref="#recipient">musicians</persName> for the fifth
+                  of november in the amount of <measure n="160">160 pence</measure> by <persName
+                     ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+         </listEvent>
+         <listEvent>
+            <event type="debit" ana="#service" when="1619-12-18">
+               <desc> in capender for the music room in the amount of <measure n="240">240
+                     pence</measure> by the <persName ref="#payer"> Christmas Stewards of Inner
+                     Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1619-12-18">
+               <desc> the music was paid to the <persName ref="#recipient">musicians</persName> in
+                  the amount of <measure n="2348">2348 pence</measure> by the <persName ref="#payer"
+                     > Christmas Stewards of Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1619-12-25">
+               <desc> the music was paid to the <persName ref="#recipient">musicians</persName> in
+                  the amount of <measure n="2348"> 2348 pence</measure> by the <persName
+                     ref="#payer"> Christmas Stewards of Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1619-12-25">
+               <desc> to the <persName ref="#recipient">trumpters</persName> in the amount of
+                     <measure n="132">132 pence</measure> by the <persName ref="#payer"> Christmas
+                     Stewards of Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1619-12-25">
+               <desc> to the <persName ref="#recipient">tumblers</persName> in the amount of
+                     <measure n="180"> 180 pence</measure> by the <persName ref="#payer"> Christmas
+                     Stewards of Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1619-01-01">
+               <desc> the music was paid to the <persName ref="#recipient">musicians</persName> in
+                  the amount of <measure n="2104"> 2104 pence</measure> by the <persName
+                     ref="#payer"> Christmas Stewards of Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1619-01-08">
+               <desc> the music was paid to the <persName ref="#recipient">musicians</persName> in
+                  the amount of <measure n="1436">1436 pence</measure> by the <persName ref="#payer"
+                     > Christmas Stewards of Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#obligation" when="1619-01-08">
+               <desc>
+                  <persName ref="#recipient">My Lords</persName>rents paid in the amount of <measure
+                     n="1080">1080 pence</measure> by the <persName ref="#payer"> Christmas Stewards
+                     of Inner Temple</persName>
+               </desc>
+            </event>
+         </listEvent>
+         <listEvent>
+            <event type="debit" ana="#service" when="1620-11-01">
+               <desc> Item paid for two plays one all saints and one candlemas day in the amount of
+                     <measure n="3360">3360 pence</measure> by <persName ref="#payer"> Inner
+                     Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1620-11-01">
+               <desc> Item paid to the <persName ref="#recipient">musicians</persName> in the amount
+                  of <measure n="240">240 pence</measure> by <persName ref="#payer"> Inner
+                     Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1620-11-05">
+               <desc> Item paid to the <persName ref="#recipient">musicians</persName>for the fifth
+                  day of november in the amount of <measure n="160"> 160 pence</measure> by
+                     <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1620-11-01">
+               <desc> Item paid to the <persName ref="#recipient">musicians</persName> then in the
+                  amount of <measure n="240">240 pence</measure> by <persName ref="#payer"> Inner
+                     Temple</persName>
+               </desc>
+            </event>
+         </listEvent>
+         <listEvent>
+            <event type="debit" ana="#service" when="1620-12-22">
+               <desc> the music was paid to the <persName ref="#recipient">musicians</persName> in
+                  the amount of <measure n="2440">2440 pence</measure> by the <persName ref="#payer"
+                     > Christmas Stewards of Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1620-12-22">
+               <desc> the hire of holberdes and vizerds in the amount of <measure n="88"> 88
+                     pence</measure> by the <persName ref="#payer"> Christmas Stewards of Inner
+                     Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1620-12-27">
+               <desc> the music was paid to the <persName ref="#recipient">musicians</persName> in
+                  the amount of <measure n="2440">2440 pence</measure> by the <persName ref="#payer"
+                     > Christmas Stewards of Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1620-12-27">
+               <desc> the loud music was paid to the <persName ref="#recipient">musicians</persName>
+                  in the amount of <measure n="120">120 pence</measure> by the <persName
+                     ref="#payer"> Christmas Stewards of Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1620-12-27">
+               <desc> the hire of holberdes coats and visserdes in the amount of <measure n="132">
+                     132 pence</measure> by the <persName ref="#payer"> Christmas Stewards of Inner
+                     Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1620-01-03">
+               <desc> the music was paid to the <persName ref="#recipient">musicians</persName> in
+                  the amount of <measure n="2442"> 2442 pence</measure> by the <persName
+                     ref="#payer"> Christmas Stewards of Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1620-01-03">
+               <desc> for hire of holberdes in the amount of <measure n="36">36 pence</measure> by
+                  the <persName ref="#payer"> Christmas Stewards of Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1620-01-10">
+               <desc> the music was paid to the <persName ref="#recipient">musicians</persName> in
+                  the amount of <measure n="1220"> 1220 pence</measure> by the <persName
+                     ref="#payer"> Christmas Stewards of Inner Temple</persName>
+               </desc>
+            </event>
+         </listEvent>
+         <listEvent>
+            <event type="debit" ana="#service" when="1621-11-01">
+               <desc> Item paid to the <persName ref="#recipient">kings players</persName> for two
+                  plays on allhallowday and candlemas day last in the amount of <measure n="3360">
+                     3360 pence</measure> by <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1621-11-05">
+               <desc> Item paid to the <persName ref="#recipient">musicians</persName> for their fee
+                  for this year and the fifth of novemberin the amount of <measure n="640"> 640
+                     pence</measure> by <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+         </listEvent>
+         <listEvent>
+            <event type="debit" ana="#goods" when="1621-12-19">
+               <desc> in green say for the musics hangings in the amount of <measure n="60"> 60
+                     pence</measure> by the <persName ref="#payer"> Christmas Stewards of Inner
+                     Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1621-12-19">
+               <desc> the music was paid to the <persName ref="#recipient">musicians</persName> in
+                  the amount of <measure n="2440"> 2440pence</measure> by the <persName ref="#payer"
+                     > Christmas Stewards of Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1621-12-26">
+               <desc> the music was paid to the <persName ref="#recipient">musicians</persName> in
+                  the amount of <measure n="2440"> 2440 pence</measure> by the <persName
+                     ref="#payer"> Christmas Stewards of Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1621-12-26">
+               <desc> the loud music was paid to the <persName ref="#recipient">musicians</persName>
+                  in the amount of <measure n="264">264 pence</measure> by the <persName
+                     ref="#payer"> Christmas Stewards of Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1621-01-02">
+               <desc> the music was paid to the <persName ref="#recipient">musicians</persName> in
+                  the amount of <measure n="2440"> 2440 pence</measure> by the <persName
+                     ref="#payer"> Christmas Stewards of Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1621-01-09">
+               <desc> the music was paid to the <persName ref="#recipient">musicians</persName> in
+                  the amount of <measure n="1100"> 1100 pence</measure> by the <persName
+                     ref="#payer"> Christmas Stewards of Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1621-01-09">
+               <desc> for hire of holberdes in the amount of <measure n="6"> 6 pence</measure> by
+                  the <persName ref="#payer"> Christmas Stewards of Inner Temple</persName>
+               </desc>
+            </event>
+         </listEvent>
+         <listEvent>
+            <event type="debit" ana="#service" when="1622-11-01">
+               <desc> Item paid for a play all saints day in the amount of <measure n="1680"> 1680
+                     pence</measure> by <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1622-11-01">
+               <desc> Item paid to the <persName ref="#recipient">musicians</persName> for their
+                  wages this year in the amount of <measure n="480"> 480 pence</measure> by
+                     <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1622-11-05">
+               <desc> Item paid to the <persName ref="#recipient">musicians</persName> more for
+                  playing the fifth of november in the amount of <measure n="160"> 160
+                     pence</measure> by <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+         </listEvent>
+         <listEvent>
+            <event type="debit" ana="#service" when="1622-12-24">
+               <desc> the music was paid to the <persName ref="#recipient">musicians</persName> in
+                  the amount of <measure n="3040"> 3040 pence</measure> by the <persName
+                     ref="#payer"> Christmas Stewards of Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1622-12-24">
+               <desc> the loud music was paid to the <persName ref="#recipient">musicians</persName>
+                  in the amount of <measure n="192"> 192 pence</measure> by the <persName
+                     ref="#payer"> Christmas Stewards of Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1622-01-01">
+               <desc> the music was paid to the <persName ref="#recipient">musicians</persName> in
+                  the amount of <measure n="2440"> 2440 pence</measure> by the <persName
+                     ref="#payer"> Christmas Stewards of Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1622-01-08">
+               <desc> the music was paid to the <persName ref="#recipient">musicians</persName> in
+                  the amount of <measure n="2440"> 2440 pence</measure> by the <persName
+                     ref="#payer"> Christmas Stewards of Inner Temple</persName>
+               </desc>
+            </event>
+         </listEvent>
+         <listEvent>
+            <event type="debit" ana="#service" when="1623-11-01">
+               <desc> Item paid for two plays on Allhallow day and candlemas day in the amount of
+                     <measure n="3360"> 3360 pence</measure> by <persName ref="#payer"> Inner
+                     Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1623-11-01">
+               <desc> Item paid to the <persName ref="#recipient">musicians</persName> for their
+                  wages in the amount of <measure n="640">640 pence</measure> by <persName
+                     ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1623-11-05">
+               <desc> Item more paid to the <persName ref="#recipient">musicians</persName> for
+                  playing on the fifth of november in the amount of <measure n="160">160
+                     pence</measure> by <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+         </listEvent>
+         <listEvent>
+            <event type="debit" ana="#service" when="1623-12-20">
+               <desc> the music was paid to the <persName ref="#recipient">musicians</persName> in
+                  the amount of <measure n="2440"> 2440 pence</measure> by the <persName
+                     ref="#payer"> Christmas Stewards of Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1623-12-20">
+               <desc> paid to the <persName ref="#recipient">trumpeters</persName> in the amount of
+                     <measure n="264"> 264 pence</measure> by the <persName ref="#payer"> Christmas
+                     Stewards of Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1623-12-27">
+               <desc> the music was paid to the <persName ref="#recipient">musicians</persName> in
+                  the amount of <measure n="2440"> 2440 pence</measure> by the <persName
+                     ref="#payer"> Christmas Stewards of Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#goods" when="1623-01-03">
+               <desc> in meat for the musicians supper in the amount of <measure n="60"> 60
+                     pence</measure> by the <persName ref="#payer"> Christmas Stewards of Inner
+                     Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1623-01-03">
+               <desc> the music was paid to the <persName ref="#recipient">musicians</persName> in
+                  the amount of <measure n="2440"> 2440 pence</measure> by the <persName
+                     ref="#payer"> Christmas Stewards of Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1623-01-03">
+               <desc> the loud music was paid to the <persName ref="#recipient">musicians</persName>
+                  in the amount of <measure n="2148"> 2148 pence</measure> by the <persName
+                     ref="#payer"> Christmas Stewards of Inner Temple</persName>
+               </desc>
+            </event>
+         </listEvent>
+         <listEvent>
+            <event type="debit" ana="#service" when="1624-11-01">
+               <desc> Item paid for a play on candlemas day 1624 in the amount of <measure n="1680">
+                     1680 pence</measure> by <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1624-11-01">
+               <desc> Item paid to the <persName ref="#recipient">musicians</persName> for their fee
+                  on candlemas day in the amount of <measure n="240"> 240 pence</measure> by
+                     <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+         </listEvent>
+         <listEvent>
+            <event type="debit" ana="#service" when="1624-12-18">
+               <desc> the music was paid to the <persName ref="#recipient">musicians</persName> in
+                  the amount of <measure n="2440">2440 pence</measure> by the <persName ref="#payer"
+                     > Christmas Stewards of Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1624-12-25">
+               <desc> the music was paid to the <persName ref="#recipient">musicians</persName> in
+                  the amount of <measure n="2440">2440 pence</measure> by the <persName ref="#payer"
+                     > Christmas Stewards of Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1624-12-25">
+               <desc> the loud music was paid to the <persName ref="#recipient">musicians</persName>
+                  in the amount of <measure n="2412">2412 pence</measure> by the <persName
+                     ref="#payer"> Christmas Stewards of Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1624-01-01">
+               <desc> the music was paid to the <persName ref="#recipient">musicians</persName> in
+                  the amount of <measure n="2452"> 2452 pence</measure> by the <persName
+                     ref="#payer"> Christmas Stewards of Inner Temple</persName>
+               </desc>
+            </event>
+         </listEvent>
+         <listEvent>
+            <event type="debit" ana="#service" when="1625-01-13">
+               <desc> Item paid to the <persName ref="#recipient">players</persName> for a playon
+                  alhallowday last in the amount of <measure n="1680">1680 pence</measure> by
+                     <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1625-01-13">
+               <desc> Item paid to the <persName ref="#recipient">musicians</persName> for their fee
+                  for candlemas day and allhallowday and the fifth of november 1626 in the amount of
+                     <measure n="640"> 640 pence</measure> by <persName ref="#payer"> Inner
+                     Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#goods" when="1625-01-13">
+               <desc> Item paid for torches to search the house in the two longe vaccations and for
+                  candlemas and alhallow nights in the amount of <measure n="120">120
+                     pence</measure> by <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1625-01-13">
+               <desc> Item paid to the <persName ref="#recipient">porters</persName> to keep the
+                  hall doors on alhallowday last in the amount of <measure n="48"> 48
+                     pence</measure> by <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+         </listEvent>
+         <listEvent>
+            <event type="debit" ana="#service" when="1626-11-03">
+               <desc> Item paid to the <persName ref="#recipient">king majesties players</persName>
+                  for a play on candlemas day last in the amount of <measure n="1680"> 1680
+                     pence</measure> by <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1626-11-03">
+               <desc> Item paid to the <persName ref="#recipient">gentlemen that were
+                     revelers</persName> on candlemas day and candlemas eve last by the master
+                  treasureers allowance in the amount of <measure n="480">480 pence</measure> by
+                     <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1626-11-03">
+               <desc> Item paid to the <persName ref="#recipient">musicians</persName> for their
+                  wages this year in the amount of <measure n="480">480 pence</measure> by <persName
+                     ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1626-11-05">
+               <desc> Item paid to the <persName ref="#recipient">musicians</persName> more to them
+                  for playing on the fifth of november in the amount of <measure n="160"> 160
+                     pence</measure> by <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1626-11-03">
+               <desc> Item paid for the play on alhallow day last in the amount of <measure n="1680"
+                     > 1680 pence</measure> by <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#goods" when="1626-11-03">
+               <desc> Item more to him for twelve torches for the revels at candlemas for two nights
+                  in the amount of <measure n="120">120 pence</measure> by <persName ref="#payer">
+                     Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#goods" when="1626-11-03">
+               <desc> Item paid for two torches for alhallow day last in the amount of <measure
+                     n="18"> 18 pence</measure> by <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1627-11-05">
+               <desc> Item paid to the <persName ref="#recipient">players</persName> for their play
+                  on the fifth of november 1627 in the amount of <measure n="1680">
+                     1680pence</measure> by <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1626-11-03">
+               <desc> Item paid to the <persName ref="#recipient">porters</persName> to keep the
+                  hall doors on candlemas day and all alhallow day in the amount of <measure n="96">
+                     96 pence</measure> by <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+         </listEvent>
+         <listEvent>
+            <event type="debit" ana="#goods" when="1626-12-20">
+               <desc>a loin of mutton for the musicians in the amount of <measure n="18">
+                     18pence</measure> by the <persName ref="#payer"> Christmas Stewards of Inner
+                     Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1626-12-20">
+               <desc> the music was paid to the <persName ref="#recipient">musicians</persName> in
+                  the amount of <measure n="2440"> 2440 pence</measure> by the <persName
+                     ref="#payer"> Christmas Stewards of Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1626-12-27">
+               <desc> the music was paid to the <persName ref="#recipient">musicians</persName> in
+                  the amount of <measure n="2440">2440 pence</measure> by the <persName ref="#payer"
+                     > Christmas Stewards of Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1626-01-03">
+               <desc> the music was paid to the <persName ref="#recipient">musicians</persName> in
+                  the amount of <measure n="2440"> 2440 pence</measure> by the <persName
+                     ref="#payer"> Christmas Stewards of Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1626-01-10">
+               <desc> the music was paid to the <persName ref="#recipient">musicians</persName> in
+                  the amount of <measure n="1220">1220 pence</measure> by the <persName ref="#payer"
+                     > Christmas Stewards of Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1626-01-10">
+               <desc> to <persName ref="#recipient">Raphe Graunte</persName>for blowing the horne in
+                  the amount of <measure n="60">60 pence</measure> by the <persName ref="#payer">
+                     Christmas Stewards of Inner Temple</persName>
+               </desc>
+            </event>
+         </listEvent>
+         <listEvent>
+            <event type="debit" ana="#service" when="1627-11-03">
+               <desc> Item paid to the <persName ref="#recipient">Cockpitt players</persName> for a
+                  play on candlemas day in the amount of <measure n="1680">1680 pence</measure> by
+                     <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1627-11-03">
+               <desc> Item paid more to the <persName ref="#recipient">kings players</persName> for
+                  a play on alhallowday in the amount of <measure n="1680"> 1680 pence</measure> by
+                     <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1627-11-03">
+               <desc> Item paid to the <persName ref="#recipient">musicians</persName> for their
+                  wages this year in the amount of <measure n="480">480 pence</measure> by <persName
+                     ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1627-11-05">
+               <desc> Item paid to the <persName ref="#recipient">musicians</persName>for attending
+                  on the fifth of november in the amount of <measure n="160">160 pence</measure> by
+                     <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#goods" when="1627-11-05">
+               <desc> Item paid tfor a dozen torches on the fifth of november 1627 when the play was
+                  in the amount of <measure n="120"> 120 pence</measure> by <persName ref="#payer">
+                     Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#goods" when="1627-11-05">
+               <desc> Item paid for three links then in the amount of <measure n="12">12
+                     pence</measure> by <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#goods" when="1627-11-03">
+               <desc> Item paid for two torches on candlemas day four torches in lent vacation and
+                  four torches in summer vacation in the amount of <measure n="100"> 100
+                     pence</measure> by <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+         </listEvent>
+         <listEvent>
+            <event type="debit" ana="#service" when="1627-12-19">
+               <desc> the music was paid to the <persName ref="#recipient">musicians</persName> in
+                  the amount of <measure n="2440"> 2440 pence</measure> by the <persName
+                     ref="#payer"> Christmas Stewards of Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#goods" when="1627-12-19">
+               <desc> in the vinteners bill the <persName ref="#recipient">vintener</persName> was
+                  paid for the wine for the musicians in the amount of <measure n="2440"> 2440
+                     pence</measure> by the <persName ref="#payer"> Christmas Stewards of Inner
+                     Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1627-12-26">
+               <desc> the music was paid to the <persName ref="#recipient">musicians</persName> in
+                  the amount of <measure n="2440">2440 pence</measure> by the <persName ref="#payer"
+                     > Christmas Stewards of Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1627-01-02">
+               <desc> the music was paid to the <persName ref="#recipient">musicians</persName> in
+                  the amount of <measure n="2440">2440 pence</measure> by the <persName ref="#payer"
+                     > Christmas Stewards of Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1627-01-02">
+               <desc> for blowing the horne the <persName ref="#recipient">panierman</persName> was
+                  paid in the amount of <measure n="120">120 pence</measure> by the <persName
+                     ref="#payer"> Christmas Stewards of Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1627-01-09">
+               <desc> the music was paid to the <persName ref="#recipient">musicians</persName> in
+                  the amount of <measure n="2440">2440 pence</measure> by the <persName ref="#payer"
+                     > Christmas Stewards of Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1627-01-09">
+               <desc>in hire of more men in the amount of <measure n="240">240 pence</measure> by
+                  the <persName ref="#payer"> Christmas Stewards of Inner Temple</persName>
+               </desc>
+            </event>
+         </listEvent>
+         <listEvent>
+            <event type="debit" ana="#service" when="1628-11-03">
+               <desc> Item paid for a play on Candlemas day last in the amount of <measure n="1680">
+                     1680 pence</measure> by <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1628-11-05">
+               <desc> Item paid to the <persName ref="#recipient">Musicians </persName> for
+                  attending on the fifth of november lastin the amount of <measure n="160">160
+                     pence</measure> by <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1628-11-03">
+               <desc> Item paid to the <persName ref="#recipient">Musicians </persName> by direction
+                  of master treasurer at the bench table in regard of their extrordinary music on
+                  candlemas night and some other nights in the amount of <measure n="240"> 240
+                     pence</measure> by <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1628-11-03">
+               <desc> Item paid to the <persName ref="#recipient">musicians </persName> for their
+                  fee for the year past in the amount of <measure n="480">480 pence</measure> by
+                     <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+         </listEvent>
+         <listEvent>
+            <event type="debit" ana="#service" when="1628-12-20">
+               <desc> the music was paid to the <persName ref="#recipient">musicians</persName> in
+                  the amount of <measure n="2440">2440 pence</measure> by the <persName ref="#payer"
+                     > Christmas Stewards of Inner Temple</persName>
+               </desc>
+            </event>
+         </listEvent>
+         <listEvent>
+            <event type="debit" ana="#service" when="1629-11-05">
+               <desc> Item paid to the <persName ref="#recipient">Musicians </persName> for
+                  attending on the fifth of november in the amount of <measure n="160">160
+                     pence</measure> by <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1629-11-03">
+               <desc> Item paid to the <persName ref="#recipient">Blackfriers Players </persName>
+                  for a play on candlemas day in the amount of <measure n="1680"> 1680
+                     pence</measure> by <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1629-11-03">
+               <desc> Item paid to the <persName ref="#recipient">Musicians </persName> for their
+                  fee then in the amount of <measure n="240">240 pence</measure> by <persName
+                     ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+         </listEvent>
+         <listEvent>
+            <event type="debit" ana="#service" when="1629-12-19">
+               <desc> the music was paid to the <persName ref="#recipient">musicians</persName> in
+                  the amount of <measure n="2440">2440 pence</measure> by the <persName ref="#payer"
+                     > Christmas Stewards of Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1629-12-27">
+               <desc> the music was paid to the <persName ref="#recipient">musicians</persName> in
+                  the amount of <measure n="2440">2440 pence</measure> by the <persName ref="#payer"
+                     > Christmas Stewards of Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1629-01-03">
+               <desc> the music was paid to the <persName ref="#recipient">musicians</persName> in
+                  the amount of <measure n="2080">2080 pence</measure> by the <persName ref="#payer"
+                     > Christmas Stewards of Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1629-01-03">
+               <desc> in allowance for blowing the horn was paid to the <persName ref="#recipient"
+                     >horm player</persName> in the amount of <measure n="60">60 pence</measure> by
+                  the <persName ref="#payer"> Christmas Stewards of Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1629-01-10">
+               <desc> [for special reasons moving the auditors they allow the music twenty shillings
+                  more than in other years but it is to be no precedent hereafter] the music was
+                  paid to the <persName ref="#recipient">musicians</persName> in the amount of
+                     <measure n="1460">1460 pence</measure> by the <persName ref="#payer"> Christmas
+                     Stewards of Inner Temple</persName>
+               </desc>
+            </event>
+         </listEvent>
+         <listEvent>
+            <event type="debit" ana="#service" when="1630-11-03">
+               <desc> Item paid to the <persName ref="#recipient">Musicians </persName> by order at
+                  the bench table upon their petician their fee for the last year although no revels
+                  were held in the house in the amount of <measure n="480"> 480pence</measure> by
+                     <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1630-11-03">
+               <desc> Item paid to the <persName ref="#recipient">Blackfrier Players </persName> for
+                  a play on alhallowtide last in the amount of <measure n="1680">1680
+                     pence</measure> by <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#goods" when="1630-11-03">
+               <desc> Item paid to <persName ref="#recipient">William Foster </persName> for a new
+                  horn for the pannierman in the amount of <measure n="240">240 pence</measure> by
+                     <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+         </listEvent>
+         <listEvent>
+            <event type="debit" ana="#service" when="1631-11-03">
+               <desc> Item paid to the <persName ref="#recipient">Musicians </persName> for their
+                  fee for candlemas day and alhallowday last in the amount of <measure n="480"> 480
+                     pence</measure> by <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1631-11-05">
+               <desc> Item paid to the <persName ref="#recipient">Musicians </persName> more for
+                  attending on the fifth of November 1631 in the amount of <measure n="160"> 160
+                     pence</measure> by <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1631-11-03">
+               <desc> Item paid to the <persName ref="#recipient">Blackfrier Players </persName> for
+                  two stage plays acted here those days in the amount of <measure n="3360"> 3360
+                     pence</measure> by <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1631-11-03">
+               <desc> Item paid to <persName ref="#recipient">four porters </persName> for keeping
+                  the hall doors on candlemas day in the amount of <measure n="48">48
+                     pence</measure> by <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+         </listEvent>
+         <listEvent>
+            <event type="debit" ana="#service" when="1631-12-17">
+               <desc> the music was paid to the <persName ref="#recipient">musicians</persName> in
+                  the amount of <measure n="1920">1920 pence</measure> by the <persName ref="#payer"
+                     > Christmas Stewards of Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1631-12-24">
+               <desc> the music was paid to the <persName ref="#recipient">musicians</persName> in
+                  the amount of <measure n="1920">1920 pence</measure> by the <persName ref="#payer"
+                     > Christmas Stewards of Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1631-12-31">
+               <desc> the music was paid to the <persName ref="#recipient">musicians</persName> in
+                  the amount of <measure n="2440">2440 pence</measure> by the <persName ref="#payer"
+                     > Christmas Stewards of Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1631-12-31">
+               <desc> the music was paid to the <persName ref="#recipient">Horn Player</persName>
+                  for blowing the horn in the amount of <measure n="60">60 pence</measure> by the
+                     <persName ref="#payer"> Christmas Stewards of Inner Temple</persName>
+               </desc>
+            </event>
+         </listEvent>
+         <listEvent>
+            <event type="debit" ana="#service" when="1632-11-05">
+               <desc> Item paid to the <persName ref="#recipient">Musicians </persName> for
+                  attending on the fifth of november last in the amount of <measure n="160"> 160
+                     pence</measure> by <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1632-11-03">
+               <desc> Item paid to the <persName ref="#recipient">Musicians </persName> for their
+                  fee for candlemas day and alhallowtide day last in the amount of <measure n="480">
+                     480 pence</measure> by <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1632-11-03">
+               <desc> Item paid to the <persName ref="#recipient">Balckfrier Players </persName> for
+                  two plays acted here on those days in the amount of <measure n="3360">3360
+                     pence</measure> by <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1632-11-03">
+               <desc> Item paid to <persName ref="#recipient">Four Porters </persName> for keeping
+                  the hall doors on candlemas day last in the amount of <measure n="48"> 48
+                     pence</measure> by <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1632-11-03">
+               <desc> Item paid to <persName ref="#recipient">Four Porters </persName> for keeping
+                  the hall doors on alhallowday lastin the amount of <measure n="48">48
+                     pence</measure> by <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+         </listEvent>
+         <listEvent>
+            <event type="debit" ana="#obligation" when="1633-11-03">
+               <desc> Item paid to <persName ref="#recipient">Mr Thomas Willis [one of the benchers
+                     of this house] </persName> for that purpose as moneys by him to be disbursed
+                  towards the charge of the masque lately presented before his majesty in the amount
+                  of <measure n="150240">150240 pence</measure> by <persName ref="#payer"> Inner
+                     Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1633-11-05">
+               <desc> Item paid to the <persName ref="#recipient">Musicians </persName> for
+                  attending upon the fifth of november last in the amount of <measure n="160"> 160
+                     pence</measure> by <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1633-11-03">
+               <desc> Item paid to the <persName ref="#recipient">Musicians </persName> for their
+                  fee for candlemas and alhallow day last in the amount of <measure n="480"> 480
+                     pence</measure> by <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1633-11-03">
+               <desc> Item paid to <persName ref="#recipient">Four Watchmen </persName> for watching
+                  the house two nights when the masque was presented before his majesty in the
+                  amount of <measure n="48">48 pence</measure> by <persName ref="#payer"> Inner
+                     Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1633-11-03">
+               <desc> Item paid to the <persName ref="#recipient">Balckfrier Players </persName> for
+                  a play acted here upon alhallowday last in the amount of <measure n="1680"> 1680
+                     pence</measure> by <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1633-11-03">
+               <desc> Item paid to <persName ref="#recipient">Four Porters </persName> for keeping
+                  the hall doors on candlemas day and alhallowday lastin the amount of <measure
+                     n="96"> 96 pence</measure> by <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1633-11-03">
+               <desc> Item paid to a <persName ref="#recipient">labourer </persName> for digging the
+                  ground and work by him done about setting up the rails at the temple gate when the
+                  masque went to court in the amount of <measure n="18">18 pence</measure> by
+                     <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1633-11-03">
+               <desc> Item paid to a <persName ref="#recipient">Pavier </persName> for work done
+                  there in the amount of <measure n="18"> 18 pence</measure> by <persName
+                     ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1633-11-03">
+               <desc> Item paid to <persName ref="#recipient">Mr Massies servants </persName> at
+                  that time in the amount of <measure n="240">240 pence</measure> by <persName
+                     ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+         </listEvent>
+         <listEvent>
+            <event type="debit" ana="#service" when="1633-12-18">
+               <desc> the music was paid to the <persName ref="#recipient">musicians</persName> in
+                  the amount of <measure n="2200">2200 pence</measure> by the <persName ref="#payer"
+                     > Christmas Stewards of Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1633-12-18">
+               <desc> the music the first night was paid to the <persName ref="#recipient"
+                     >musicians</persName> in the amount of <measure n="240">240 pence</measure> by
+                  the <persName ref="#payer"> Christmas Stewards of Inner Temple</persName>
+               </desc>
+            </event>
+         </listEvent>
+         <listEvent>
+            <event type="debit" ana="#obligation" when="1634-11-03">
+               <desc> Item paid to <persName ref="#recipient">Mr Thomas Willis [one of the benchers
+                     of this house] </persName> for the discharge of moneys as remained unpaid by
+                  him in the former year concerning the masque presented before his majesty in the
+                  amount of <measure n="40800">40800 pence</measure> by <persName ref="#payer">
+                     Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1634-11-03">
+               <desc> Item paid to <persName ref="#recipient">Mr Pope[ a rider at the masque]
+                  </persName> in the amount of <measure n="660">660 pence</measure> by <persName
+                     ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1634-11-03">
+               <desc> Item paid to <persName ref="#recipient">Mr Rouland Reinolds </persName> for
+                  the like in the amount of <measure n="1032">1032 pence</measure> by <persName
+                     ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1634-11-03">
+               <desc> Item paid to <persName ref="#recipient">Mr John Finch [a rider at the masque]
+                  </persName> which he paid upon the aide rolle to Mr Willis in the amount of
+                     <measure n="240">240 pence</measure> by <persName ref="#payer"> Inner
+                     Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1634-11-03">
+               <desc> Item paid to <persName ref="#recipient">Mr Carew [a masque]</persName> for the
+                  like in the amount of <measure n="240">240 pence</measure> by <persName
+                     ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1634-11-05">
+               <desc> Item paid to the <persName ref="#recipient"> Musicians</persName> for their
+                  attendance upon the fifth of november in the amount of <measure n="160"> 160
+                     pence</measure> by <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1634-11-03">
+               <desc> Item paid to the <persName ref="#recipient">Musicians </persName> for their
+                  fee for candlemas and alhallowday in the amount of <measure n="480">480
+                     pence</measure> by <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1634-11-03">
+               <desc> Item paid to the <persName ref="#recipient">Blackfrier Players </persName> for
+                  a play her acted on candlemas day in the amount of <measure n="1680">1680
+                     pence</measure> by <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1634-11-03">
+               <desc> Item paid to <persName ref="#recipient">Four Porters </persName> for keeping
+                  the hall doors then and on alhallowday in the amount of <measure n="96"> 96
+                     pence</measure> by <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+         </listEvent>
+         <listEvent>
+            <event type="debit" ana="#service" when="1635-11-05">
+               <desc> Item paid to the <persName ref="#recipient">Musicians </persName> for their
+                  attendance uppon the fifth of november 1635 in the amount of <measure n="160"> 160
+                     pence</measure> by <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1635-11-03">
+               <desc> Item paid to the <persName ref="#recipient">Musicians </persName> for their
+                  fee for candlemas day 1635 in the amount of <measure n="240">240 pence</measure>
+                  by <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1635-11-03">
+               <desc> Item paid to the <persName ref="#recipient">Blackfrier Players </persName> for
+                  a play acted here on the same day in the amount of <measure n="1680">1680
+                     pence</measure> by <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1635-11-03">
+               <desc> Item paid to <persName ref="#recipient">Four Porters </persName> for keeping
+                  the hall doors that day in the amount of <measure n="48">48 pence</measure> by
+                     <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+         </listEvent>
+         <listEvent>
+            <event type="debit" ana="#service" when="1636-01-29">
+               <desc> Item paid to <persName ref="#recipient">Henry Feilde [musician] </persName> in
+                  lieu for the fees for alhallow and candlemas days when the commons of the house
+                  discontinued granted onto him in parliament in the amount of <measure n="480">480
+                     pence</measure> by <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1636-01-29">
+               <desc> Item paid to the <persName ref="#recipient">Musicians </persName> for their
+                  fee on alhallow day in the amount of <measure n="240">240 pence</measure> by
+                     <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1636-01-29">
+               <desc> Item paid to the <persName ref="#recipient">Kings Players </persName> for a
+                  play acted here on the same day in the amount of <measure n="1680"> 1680
+                     pence</measure> by <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1636-01-29">
+               <desc> Item paid to <persName ref="#recipient">Four Porters </persName> for keeping
+                  the hall doors that day in the amount of <measure n="48"> 48 pence</measure> by
+                     <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+         </listEvent>
+         <listEvent>
+            <event type="debit" ana="#service" when="1638-11-05">
+               <desc> Item paid to the <persName ref="#recipient">Musicians </persName> for their
+                  attendance the fifth day of november last past in the amount of <measure n="160">
+                     160 pence</measure> by <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1638-11-03">
+               <desc> Item paid to the <persName ref="#recipient">Musicians </persName>likewise for
+                  the fees for candlemas day and all saintes day last past in the amount of <measure
+                     n="480"> 480 pence</measure> by <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1638-11-03">
+               <desc> Item paid by order of the Table to the <persName ref="#recipient">Kings
+                     Players </persName> for two plays acted here upon the same days in the amount
+                  of <measure n="4800">4800 pence</measure> by <persName ref="#payer"> Inner
+                     Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1638-11-03">
+               <desc> Item paid to <persName ref="#recipient">Four Porters </persName> for keeping
+                  the hall doors those days in the amount of <measure n="96">96 pence</measure> by
+                     <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+         </listEvent>
+         <listEvent>
+            <event type="debit" ana="#service" when="1639-11-07">
+               <desc> Item paid to the <persName ref="#recipient">Musicians </persName> for their
+                  attendance on those days in the amount of <measure n="480">480 pence</measure> by
+                     <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1639-11-07">
+               <desc> Item paid to <persName ref="#recipient">Four Porters </persName> that kept the
+                  hall doors those days in the amount of <measure n="96">96 pence</measure> by
+                     <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1639-11-05">
+               <desc> Item paid to the <persName ref="#recipient">Musicians </persName> for their
+                  attendance on the fifth of november in the amount of <measure n="240"> 240
+                     pence</measure> by <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+         </listEvent>
+         <listEvent>
+            <event type="debit" ana="#service" when="1640-11-08">
+               <desc> Item paid to the <persName ref="#recipient">Balckfrier Players </persName> for
+                  a play here acted on candlemas day last in the amount of <measure n="2400">2400
+                     pence</measure> by <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1640-11-08">
+               <desc> Item paid to the <persName ref="#recipient">Musicians </persName> for their
+                  attendance on those days in the amount of <measure n="480">480 pence</measure> by
+                     <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1640-11-08">
+               <desc> Item paid to the <persName ref="#recipient">Four Porters </persName> that kept
+                  the hall doors those days in the amount of <measure n="96">96 pence</measure> by
+                     <persName ref="#payer"> Inner Temple</persName>
+               </desc>
+            </event>
+         </listEvent>
+      </body>
+   </text>
+</TEI>

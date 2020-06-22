@@ -27,6 +27,9 @@
                <category xml:id="fine">
                   <catDesc>Fines</catDesc>
                </category>
+               <category xml:id="obligation">
+                  <catDesc>Financial Obligations</catDesc>
+               </category>
             </taxonomy>
             <taxonomy>
                <category xml:id="payer">
@@ -41,6 +44,123 @@
    </teiHeader>
    <text>
       <body>
+         <listEvent>
+            <event type="debit" ana="#fine" when="1612-01-27">
+               <desc>
+                  <persName ref="#payer">John Hopkins [the butler] </persName> paid <persName
+                     ref="#recipient"> Willelmum White </persName> by the appointment of [his]
+                  master in the amount of <measure n="15600"> 15600 pence </measure> of the masking
+                  money. </desc>
+            </event>
+            <event type="debit" ana="#fine" when="1612-01-27">
+               <desc>
+                  <persName ref="#payer">John Hopkins</persName> paid <persName ref="#recipient">
+                     Willelmum White </persName> further in the amount of <measure n="7200"> 7200
+                     pence </measure> of the masking money. </desc>
+            </event>
+            <event type="debit" ana="#fine" when="1612-01-28">
+               <desc> The tax of <persName ref="#payer">John Hopkins</persName> combined with that
+                  of <persName ref="#payer"> Richard Daston</persName> was collected by <persName
+                     ref="#recipient"> Richard Daston </persName> in the total amount of <measure
+                     n="9600"> 9600 pence </measure>
+               </desc>
+            </event>
+            <event type="debit" ana="#fine" when="1612-01-28">
+               <desc>
+                  <persName ref="#payer">John Hopkins</persName> delivered to <persName
+                     ref="#recipient"> Richard Daston </persName> further masking money in the
+                  amount of <measure n="6000"> 6000 pence </measure>
+               </desc>
+            </event>
+            <event type="debit" ana="#fine" when="1612-01-30">
+               <desc>
+                  <persName ref="#payer">John Hopkins</persName> delivered to <persName
+                     ref="#recipient"> Willelmum White </persName> further masking money in the
+                  amount of <measure n="12000"> 12000 pence </measure>
+               </desc>
+            </event>
+            <event type="debit" ana="#fine" when="1612-02-01">
+               <desc>
+                  <persName ref="#payer">John Hopkins</persName> delivered to <persName
+                     ref="#recipient"> Willelmum White </persName> further masking money in the
+                  amount of <measure n="9600"> 9600 pence </measure>
+               </desc>
+            </event>
+            <event type="debit" ana="#fine" when="1612-02-04">
+               <desc>
+                  <persName ref="#payer">John Hopkins</persName> delivered to <persName
+                     ref="#recipient"> Willelmum White </persName> further masking money in the
+                  amount of <measure n="13200"> 13200 pence </measure>
+               </desc>
+            </event>
+            <event type="debit" ana="#fine" when="1612-02-14">
+               <desc>
+                  <persName ref="#payer">John Hopkins</persName> delivered to <persName
+                     ref="#recipient"> Willelmum White </persName> further masking money in the
+                  amount of <measure n="10800"> 10800 pence </measure>
+               </desc>
+            </event>
+         </listEvent>
+         <listEvent>
+            <event type="debit" ana="#service" when="1612-02-02">
+               <desc>
+                  <persName ref="#payer">Richard Baldwin undertreasurer of Middle Temple</persName>
+                  paid <persName ref="#recipient"> John Dowlande [lutenist to the Kinges
+                     maiestie]</persName>
+                  <persName ref="#recipient"> William Cokine</persName> and <persName
+                     ref="#recipient"> Richard Goosey </persName>in the amount of <measure n="1200">
+                     1200 pence </measure> for the concert performed before the judges and reverent
+                  benchers of the Middle Temple upon candellmas daye, 1612 </desc>
+            </event>
+         </listEvent>
+         <listEvent>
+            <event type="debit" ana="#service" when="1612-02-13">
+               <desc>
+                  <persName ref="#payer"> Mr Baldwin undertreasurer of Middle Temple</persName> paid
+                     <persName ref="#recipient"> John Papson</persName> in the amount of <measure
+                     n="480"> 480 pence </measure> that was due at the feast of the purification
+               </desc>
+            </event>
+         </listEvent>
+         <listEvent>
+            <event type="debit" ana="#goods" when="1612-02-16">
+               <desc>
+                  <persName ref="#payer"> Sir Henrey Mountague Knight Recorder of the City of
+                     London</persName> paid <persName ref="#recipient"> Richard Baldwin Subtreasurer
+                     [of Middle Temple]</persName> in the amount of <measure n="16000"> 16000 pence
+                  </measure> for the use of the fellowship of the house of the Middle Temple </desc>
+            </event>
+         </listEvent>
+         <listEvent>
+            <event type="credit" ana="#service" when="1612-02-18">
+               <desc>
+                  <persName ref="#payer">Edward Powell </persName> loaned to the use of the
+                  fellowship of the house of Middle Temple for six months to be paid at the end of
+                  said six months <measure n="12000"> 12000 pence </measure> which was received by
+                     <persName ref="#recipient"> Richard Baldwin subtreasurer [of Middle
+                     Temple]</persName>
+               </desc>
+            </event>
+         </listEvent>
+         <listEvent>
+            <event type="debit" ana="#service" when="1612-02-26">
+               <desc>
+                  <persName ref="#payer"> Mr Richard Baldwin [undertreasurer of Middle
+                     Temple]</persName> paid <persName ref="#recipient">Nicholas Herman</persName>
+                  by the appointment of his master Richard Martyn Esquier in the amount of <measure
+                     n="1600"> 1600 pence </measure> for the use of the fellowship and society of
+                  the Middle Temple </desc>
+            </event>
+         </listEvent>
+         <listEvent>
+            <event type="debit" ana="#service" when="1612-03-01">
+               <desc>
+                  <persName ref="#payer"> Richard Baldwin undertreasurer of Middle Temple</persName>
+                  paid <persName ref="#recipient"> Christopher Brooke </persName> in the amount of
+                     <measure n="14400"> 14400 pence </measure> towards the two maskes of the Middle
+                  Temple and Lincolns Inn </desc>
+            </event>
+         </listEvent>
          <listEvent>
             <event type="credit" ana="#fine" when="1613-06-11">
                <desc> The<persName ref="#payer">masters of the Bench at Middle Temple</persName>
@@ -137,8 +257,8 @@
                <desc>
                   <persName ref="#payer">Richard Baldwin subtreasurer [of Middle Temple]</persName>
                   paid <persName ref="#recipient"> Nicholas Herman</persName> who is the servant to
-                  Richard Martyn of Middle Temple London Esquier in the amount of <measure n="24000"> 24000
-                     pence </measure> for the late masque. </desc>
+                  Richard Martyn of Middle Temple London Esquier in the amount of <measure n="24000"
+                     > 24000 pence </measure> for the late masque. </desc>
             </event>
          </listEvent>
          <listEvent>
@@ -154,8 +274,10 @@
                <desc>
                   <persName ref="#payer">Richard Baldwin subtreasurer [of Middle Temple]</persName>
                   paid <persName ref="#recipient"> Nicholas Herman</persName> who is the servant to
-                  Richard Martyn of Middle Temple London Esquier in the amount of <measure n="12000"> 12000
-                     pence </measure> for the late masque. </desc> <note>This document is from the point of view of the intermediery for the ultimate recepient not Middle Temple</note>
+                  Richard Martyn of Middle Temple London Esquier in the amount of <measure n="12000"
+                     > 12000 pence </measure> for the late masque. </desc>
+               <note>This document is from the point of view of the intermediery for the ultimate
+                  recepient not Middle Temple</note>
             </event>
          </listEvent>
          <listEvent>
@@ -163,8 +285,124 @@
                <desc>
                   <persName ref="#payer">Richard Baldwin subtreasurer [of Middle Temple]</persName>
                   paid <persName ref="#recipient"> Nicholas Herman</persName> who is the servant to
-                  Richard Martyn of Middle Temple London Esquier in the amount of <measure n="12000"> 12000
-                     pence </measure> for the late masque. </desc> <note>This document is from the point of view of the intermediery for the ultimate recepient not Middle Temple</note>
+                  Richard Martyn of Middle Temple London Esquier in the amount of <measure n="12000"
+                     > 12000 pence </measure> for the late masque. </desc>
+               <note>This document is from the point of view of the intermediery for the ultimate
+                  recepient not Middle Temple</note>
+            </event>
+         </listEvent>
+         <listEvent>
+            <event type="credit" ana="#fine" when="1612-01-01">
+               <desc> Money towards the late Masque inprimis delivered by <persName ref=" #payer">Mr
+                     Daston</persName> to the <persName ref="#recipient"> Middle Temple
+                     Accountant</persName> in the amount of <measure n="120720"> 120720
+                     pence</measure>
+               </desc>
+               <note> This document is a summary of payments and as such may repeat earlier
+                  transactions </note>
+            </event>
+            <event type="debit" ana="#service" when="1612-02-26">
+               <desc> Money was delivered by <persName ref=" #payer">the undertreasurer [of Middle
+                     Temple] </persName> to <persName ref="#recipient">Mr Herman [Mr Martyns
+                     man]</persName> in the amount of <measure n="1600"> 1600 pence</measure>
+               </desc>
+               <note> This document is a summary of payments and as such may repeat earlier
+                  transactions </note>
+            </event>
+            <event type="debit" ana="#service" when="1612-03-01">
+               <desc> Money was delivered by <persName ref=" #payer">the undertreasurer [of Middle
+                     Temple] </persName> to <persName ref="#recipient">Mr Brooke [of Lincolns
+                     Inn]</persName> in the amount of <measure n="14400"> 14400 pence</measure>
+               </desc>
+               <note> This document is a summary of payments and as such may repeat earlier
+                  transactions </note>
+            </event>
+            <event type="debit" ana="#service" when="1613-06-29">
+               <desc> Money was delivered by <persName ref=" #payer">the undertreasurer [of Middle
+                     Temple] </persName> to <persName ref="#recipient">Mr Herman [Mr Martyns
+                     man]</persName> in the amount of <measure n="24000"> 24000 pence</measure>
+               </desc>
+               <note> This document is a summary of payments and as such may repeat earlier
+                  transactions </note>
+            </event>
+            <event type="debit" ana="#service" when="1613-06-26">
+               <desc> Money was delivered by <persName ref=" #payer">the undertreasurer [of Middle
+                     Temple] </persName> to <persName ref="#recipient">Mr Herman [Mr Martyns
+                     man]</persName> in the amount of <measure n="240"> 240 pence</measure>
+               </desc>
+               <note> This document is a summary of payments and as such may repeat earlier
+                  transactions </note>
+            </event>
+            <event type="debit" ana="#service" when="1613-06-28">
+               <desc> Money was delivered by <persName ref=" #payer">the undertreasurer [of Middle
+                     Temple] </persName> to the said <persName ref="#recipient">Mr Herman</persName>
+                  in the amount of <measure n="240"> 240 pence</measure>
+               </desc>
+               <note> This document is a summary of payments and as such may repeat earlier
+                  transactions </note>
+            </event>
+         </listEvent>
+         <listEvent>
+            <event type="debit" ana="#fine" when="1613-08-25">
+               <desc>
+                  <persName ref="#payer">John Hopkins</persName> paid <persName ref="#recipient">
+                     Richard Baldwin subtreasurer [of Middle Temple] </persName> in the amount of
+                     <measure n="2400"> 2400 pence </measure> towards the late masque. </desc>
+            </event>
+         </listEvent>
+         <listEvent>
+            <event type="debit" ana="#fine" when="1613-10-16">
+               <desc>
+                  <persName ref="#recipient">Nicholas Herman</persName> servant to Richard Martyn of
+                  the Middle Temple Esquier recieved from <persName ref="#payer">Richard
+                     Baldwin</persName> subtreasurer of Middle Temple<measure n="3200">3200
+                     pence</measure> towards the late maske</desc>
+            </event>
+         </listEvent>
+         <listEvent>
+            <event type="debit" ana="#fine" when="1613-11-05">
+               <desc>
+                  <persName ref="#recipient">Nicholas Herman</persName> servant to Richard Martyn of
+                  the Middle Temple Esquier recieved from <persName ref="#payer">Richard
+                     Baldwin</persName> [subtreasurer of Middle Temple]<measure n="4800">4800
+                     pence</measure> towards the late maske</desc>
+            </event>
+         </listEvent>
+         <listEvent>
+            <event type="debit" ana="#fine" when="1613-11-18">
+               <desc>
+                  <persName ref="#recipient">Sir Thomas Temple</persName> was paid <measure
+                     n="51600">51600 pence</measure> by <persName ref="#payer">Middle Temple
+                     Accountant</persName> upon a bond due the same day</desc>
+            </event>
+         </listEvent>
+         <listEvent>
+            <event type="credit" ana="#fine" when="1614-04-14">
+               <desc> Received at several times of <persName ref="#payer">John Hopkins</persName>
+                  and <persName ref="#payer">Fancis Barker</persName> the tacation rolles that were
+                  collected by them were paid to the <persName ref="#recipient">Middle Temple
+                     Accountant</persName> in the amount of <measure n=""> pence</measure>
+               </desc>
+            </event>
+            <event type="credit" ana="#fine" when="1614-04-14">
+               <desc>
+                  of the stop of the house upon <persName ref="#payer">Mr Walrond</persName> the <persName ref="#recipient">Middle Temple
+                        Accountant</persName> received <measure n=""> pence</measure></desc>
+            </event>
+            <event type="credit" ana="#fine" when="1614-04-14">
+               <desc>
+                  of <persName ref="#payer">Mr Hibbard</persName> the <persName ref="#recipient">Middle Temple
+                     Accountant</persName> received <measure n=""> pence</measure></desc>
+            </event>
+            <event type="credit" ana="#fine" when="1614-04-14">
+               <desc>
+                  of <persName ref="#payer">Mr Powell</persName> the <persName ref="#recipient">Middle Temple
+                     Accountant</persName> received <measure n=""> pence</measure></desc>
+            </event>
+            <event type="credit" ana="#fine" when="1614-04-14">
+               <desc>
+                  of <persName ref="#payer">Mistress Stephens</persName> the <persName ref="#recipient">Middle Temple
+                     Accountant</persName> received <measure n=""> pence</measure></desc>
             </event>
          </listEvent>
       </body>
