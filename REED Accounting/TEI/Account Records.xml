@@ -171,7 +171,7 @@
             </event>
             <event type="debit" ana="#service" when="1612-01-27">
                <desc> The works for the Hall and street were paid for by the <persName ref="#payer"
-                     >Lincoln's Inn Accountant</persName> to <persName ref="recipient">Mr Indigo
+                     >Lincoln's Inn Accountant</persName> to <persName ref="recipient">Mr Inigo
                      Jones</persName>in the amount of <measure n="24000"> 24000
                   pence</measure></desc>
             </event>
