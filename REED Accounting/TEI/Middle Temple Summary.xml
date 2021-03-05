@@ -59,8 +59,8 @@
                      pence </measure> of the masking money. </desc>
             </event>
             <event type="debit" ana="#fine" when="1612-01-28">
-               <desc> The tax of <persName ref="#payer">John Hopkins</persName> combined with that
-                  of <persName ref="#payer"> Richard Daston</persName> was collected by <persName
+               <desc> The tax of <persName ref="#payer">John Hopkins combined with that
+                  of Richard Daston </persName> was collected by <persName
                      ref="#recipient"> Richard Daston </persName> in the total amount of <measure
                      n="9600"> 9600 pence </measure>
                </desc>
@@ -105,10 +105,8 @@
             <event type="debit" ana="#service" when="1612-02-02">
                <desc>
                   <persName ref="#payer">Richard Baldwin undertreasurer of Middle Temple</persName>
-                  paid <persName ref="#recipient"> John Dowlande [lutenist to the Kinges
-                     maiestie]</persName>
-                  <persName ref="#recipient"> William Cokine</persName> and <persName
-                     ref="#recipient"> Richard Goosey </persName>in the amount of <measure n="1200">
+                  paid <persName ref="#recipient"> John Dowlande lutenist to the Kinges
+                     maiestie  William Cokine and Richard Goosey </persName>in the amount of <measure n="1200">
                      1200 pence </measure> for the concert performed before the judges and reverent
                   benchers of the Middle Temple upon candellmas daye, 1612 </desc>
             </event>
@@ -378,8 +376,7 @@
          </listEvent>
          <listEvent>
             <event type="credit" ana="#fine" when="1614-04-14">
-               <desc> Received at several times of <persName ref="#payer">John Hopkins</persName>
-                  and <persName ref="#payer">Fancis Barker</persName> the tacation rolles that were
+               <desc> Received at several times of <persName ref="#payer">John Hopkins and Francis Barker</persName> the tacation rolles that were
                   collected by them were paid to the <persName ref="#recipient">Middle Temple
                      Accountant</persName> in the amount of <measure n=""> pence</measure>
                </desc>

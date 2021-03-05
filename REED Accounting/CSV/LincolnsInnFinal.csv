@@ -1,0 +1,22 @@
+Transaction Category,Transaction Date,Transaction Type,Recipient,Payer,Amount (debit),Amount (credit)
+obligation,1612-04-30,credit,Mr Spencer [treasurer of Lincolns Inn],Mr Cheeke,,2400
+obligation,1612-04-30,credit,Mr Spencer [treasurer of Lincolns Inn],Mr Robert Riche,,2400
+obligation,1612-05-04,credit,Mr Spencer [treasurer of Lincolns Inn],Mr Randall,,2400
+obligation,1612-05-13,debit,Roger Garners,Lincolns Inn Treasurer,720,
+goods,1612-01-27,debit,Thomas Watson [Taylor],Lincolns Inn Treasurer,12000,
+service,1612-01-27,debit,THomas Pittes [Butler],Lincolns Inn Treasurer,2400,
+goods,1612-01-27,debit,Mr Anton [Mercer],Lincolns Inn Treasurer,43836,
+goods,1612-01-27,debit,Mr Smith [Mercer] of St Martins,Lincolns Inn Treasurer,15600,
+service,1612-01-27,debit,Mr Morrice [Embroiderer],Lincolns Inn Treasurer,24000,
+service,1612-01-27,debit,Thomas Watson [Taylor],Lincolns Inn Treasurer,9600,
+goods,1612-01-27,debit,Thomas Pittes [Butler],Lincolns Inn Treasurer,3840,
+service,1612-01-27,debit,=Mr Morrice [Embroiderer],Lincolns Inn Treasurer,28800,
+service,1612-01-27,debit,Mr Barlowe [Embroider],Lincolns Inn Treasurer,13200,
+service,1612-01-27,debit,Mr Inigoe Johnes,Lincolns Inn Treasurer,24000,
+service,1612-01-27,debit,Mr Roberte Johnson [musician],Lincolns Inn Treasurer,10800,
+goods,1612-01-27,debit,Mr Roberte Johnes[Haberdasher],Lincolns Inn Treasurer,45600,
+service,1612-01-27,debit,John Banckes [Coachmaker],Lincolns Inn Treasurer,2400,
+service,1612-01-27,debit,Trumpeters,Lincolns Inn Treasurer,2400,
+goods,1612-01-27,debit,Charles Hilyarde [porter],Lincolns Inn Treasurer,120,
+service,1612-01-27,debit,the Actors musicions,Lincolns Inn Treasurer,720,
+service,1612-01-27,debit,,Lincolns Inn Treasurer,,

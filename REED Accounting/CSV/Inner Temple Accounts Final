@@ -1,0 +1,47 @@
+Transaction Category,Transaction Date,Transaction Type,Recipient,Payer,Amount (debit),Amount (credit)
+fine,1612-01-27,debit,Willelmum White,John Hopkins [the butler],15600,
+fine,1612-01-27,debit,Willelmum White,John Hopkins,7200,
+fine,1612-01-28,debit,Richard Daston,John Hopkins combined with that of Richard Daston,9600,
+fine,1612-01-28,debit,Richard Daston,John Hopkins,6000,
+fine,1612-01-30,debit,Willelmum White,John Hopkins,12000,
+fine,1612-02-01,debit,Willelmum White,John Hopkins,9600,
+fine,1612-02-04,debit,Willelmum White,John Hopkins,13200,
+fine,1612-02-14,debit,Willelmum White,John Hopkins,10800,
+service,1612-02-02,debit,John Dowlande lutenist to the Kinges maiestie William Cokine and Richard Goosey,Richard Baldwin undertreasurer of Middle Temple,1200,
+service,1612-02-13,debit,John Papson,Mr Baldwin undertreasurer of Middle Temple,480,
+goods,1612-02-16,debit,Richard Baldwin Subtreasurer [of Middle Temple],Sir Henrey Mountague Knight Recorder of the City of London,16000,
+service,1612-02-18,credit,Richard Baldwin subtreasurer [of Middle Temple],Edward Powell,,12000
+service,1612-02-26,debit,Nicholas Herman,Mr Richard Baldwin [undertreasurer of Middle Temple],1600,
+service,1612-03-01,debit,Christopher Brooke,Richard Baldwin undertreasurer of Middle Temple,14400,
+fine,1613-06-11,credit,John Hopkins,masters of the Bench at Middle Temple,,10200
+fine,1613-06-11,credit,John Hopkins,masters of the utter bar at Middle Temple,,15840
+fine,1613-06-11,credit,John Hopkins,gentlemen under the bar at Middle Temple,,5040
+fine,1613-06-12,credit,Johns Hopkins,25 masters of the Bench at Middle Temple,,15000
+fine,1613-06-12,credit,Johns Hopkins,128 masters of the utter bar at Middle Temple,,46080
+fine,1613-06-12,credit,Johns Hopkins,200 gentlemen under the bar at Middle Temple,,36000
+service,1613-06-12,debit,Mr Daston,John Hopkins,84000,
+service,1613-06-12,debit,Mr Baldwyn, the undertreasurer of Middle Temple,John Hopkins,7200,
+service,1613-06-12,debit,John Hoplins,John Hopkins,2427,
+fine,1613-06-16,credit,Richard Baldwin subtreasurar [of Middle Temple],John Hopkins,,24000
+fine,1613-06-17,credit,Richard Baldwin subtreasurar [of Middle Temple],John Hopkins,,24000
+fine,1613-06-18,credit,Richard Baldwin subtreasurar [of Middle Temple],John Hopkins,,240
+fine,1613-08-01,credit,Richard Baldwin subtreasurar [of Middle Temple],John Hopkins,,2400
+fine,1613-06-17,credit,Nicholas Herman,Richard Baldwin subtreasurer [of Middle Temple],,24000
+service,1613-06-21,debit,Mr Bawldwin,John Papson,480,
+fine,1613-06-26,credit,Nicholas Herman,Richard Baldwin subtreasurer [of Middle Temple],,12000
+fine,1613-06-28,credit,Nicholas Herman,Richard Baldwin subtreasurer [of Middle Temple],,12000
+fine,1612-01-01,credit,Middle Temple Accountant,,,120720
+service,1612-02-26,debit,Mr Herman [Mr Martyns man],,1600,
+service,1612-03-01,debit,Mr Brooke [of Lincolns Inn],,14400,
+service,1613-06-29,debit,Mr Herman [Mr Martyns man],,24000,
+service,1613-06-26,debit,Mr Herman [Mr Martyns man],,240,
+service,1613-06-28,debit,Mr Herman,,240,
+fine,1613-08-25,debit,Richard Baldwin subtreasurer [of Middle Temple],John Hopkins,2400,
+fine,1613-10-16,debit,Nicholas Herman,Richard Baldwin,3200,
+fine,1613-11-05,debit,Nicholas Herman,Richard Baldwin,4800,
+fine,1613-11-18,debit,Sir Thomas Temple,Middle Temple Accountant,51600,
+fine,1614-04-14,credit,Middle Temple Accountant,John Hopkins and Francis Barker,,
+fine,1614-04-14,credit,Middle Temple Accountant,Mr Walrond,,
+fine,1614-04-14,credit,Middle Temple Accountant,Mr Hibbard,,
+fine,1614-04-14,credit,Middle Temple Accountant,Mr Powell,,
+fine,1614-04-14,credit,Middle Temple Accountant,Mistress Stephens,,
