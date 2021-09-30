@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="file:/C:/Users/csimo/Documents/GitHub/Accounting/REED%20Accounting/out/Accounting.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
       <fileDesc>
@@ -44,9 +44,9 @@
   </teiHeader>
   <text>
       <body>
-         <listEvent><event type="debit" ana="#service" when="1616-11-01">
-            <desc> Item paid to <persName ref="#recipient"> </persName> for in the amount of
-               <measure n="">  pence</measure> by <persName ref="#payer"> Grays Inn</persName>
+         <listEvent><event type="debit" ana="services" when="1616-11-01">
+            <desc> Item paid to <persName ref="recipient"> </persName> for in the amount of
+               <measure n="">  pence</measure> by <persName ref="payer"> Grays Inn</persName>
             </desc>
          </event>
          </listEvent>
