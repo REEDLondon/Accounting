@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="goods">
+                  <catDesc>Goods</catDesc>
+               </category>
+               <category xml:id="service">
+                  <catDesc>Services</catDesc>
+               </category>
+               <category xml:id="fine">
+                  <catDesc>Fines</catDesc>
+               </category>
+               <category xml:id="obligation">
+                  <catDesc>Financial Obligations</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy>
+               <category xml:id="payer">
+                  <catDesc>Payer</catDesc>
+               </category>
+               <category xml:id="recipient">
+                  <catDesc>Recipient</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listEvent>
+            <event type="credit" ana="#obligation" when="1612-04-30">
+               <desc> Item paid to <persName ref="#recipient">Mr Spencer [treasurer of Lincolns Inn]
+                  </persName> for a loan towards the charge of the masque to be repaid as soon as
+                  possible in the amount of <measure n="2400">2400 pence</measure> by <persName
+                     ref="#payer"> Mr Cheeke </persName>
+               </desc>
+            </event>
+            <event type="credit" ana="#obligation" when="1612-04-30">
+               <desc> Item paid to <persName ref="#recipient">Mr Spencer [treasurer of Lincolns Inn]
+                  </persName> for a loan towards the charge of the masque to be repaid as soon as
+                  possible in the amount of <measure n="2400"> 2400 pence</measure> by <persName
+                     ref="#payer"> Mr Robert Riche </persName>
+               </desc>
+            </event>
+            <event type="credit" ana="#obligation" when="1612-05-04">
+               <desc> Item paid to <persName ref="#recipient">Mr Spencer [treasurer of Lincolns Inn]
+                  </persName> for a loan towards the charge of the masque to be repaid as soon as
+                  possible in the amount of <measure n="2400">2400 pence</measure> by <persName
+                     ref="#payer"> Mr Randall </persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#obligation" when="1612-05-13">
+               <desc> Item paid to <persName ref="#recipient">Roger Garners </persName> as repayment
+                  for money paid to the Cheif Butler for one of the masking suites in the amount of
+                     <measure n="720"> 720 pence</measure> by <persName ref="#payer"> Lincolns Inn
+                     Treasurer </persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#goods" when="1612-01-27">
+               <desc> Item paid to <persName ref="#recipient">Thomas Watson [Taylor] </persName> for
+                  stuffes and lace in the amount of <measure n="12000">12000 pence</measure> by
+                     <persName ref="#payer">Lincolns Inn Treasurer </persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1612-01-27">
+               <desc> Item paid to <persName ref="#recipient">THomas Pittes [Butler] </persName> for
+                  overplus of the maskers diet and fire in the amount of <measure n="2400"> 2400
+                     pence</measure> by <persName ref="#payer">Lincolns Inn Treasurer </persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#goods" when="1612-01-27">
+               <desc> Item paid to <persName ref="#recipient">Mr Anton [Mercer] </persName> for
+                  diverse parcels of cloth of silver in the amount of <measure n="43836"> 43836
+                     pence</measure> by <persName ref="#payer">Lincolns Inn Treasurer</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#goods" when="1612-01-27">
+               <desc> Item paid to <persName ref="#recipient">Mr Smith [Mercer] of St Martins
+                  </persName> for 144 yards of gold stuff and 6 yards of flaunders satin in the
+                  amount of <measure n="15600"> 15600 pence</measure> by <persName ref="#payer"
+                     >Lincolns Inn Treasurer</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1612-01-27">
+               <desc> Item paid to <persName ref="#recipient">Mr Morrice [Embroiderer] </persName>
+                  for embroidering work in the amount of <measure n="24000"> 24000 pence</measure>
+                  by <persName ref="#payer">Lincolns Inn Treasurer</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1612-01-27">
+               <desc> Item paid to <persName ref="#recipient">Thomas Watson [Taylor] </persName> for
+                  making all the masking apparell and for linings and other things by him in the
+                  amount of <measure n="9600"> 9600 pence</measure> by <persName ref="#payer"
+                     >Lincolns Inn Treasurer</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#goods" when="1612-01-27">
+               <desc> Item paid to <persName ref="#recipient">Thomas Pittes [Butler] </persName> for
+                  overplus of the masquers diet and fire in the amount of <measure n="3840"> 3840
+                     pence</measure> by <persName ref="#payer">Lincolns Inn Treasurer</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1612-01-27">
+               <desc> Item paid to <persName ref="#recipient"> =Mr Morrice [Embroiderer] </persName>
+                  for for embroidering work in the amount of <measure n="28800"> 28800
+                     pence</measure> by <persName ref="#payer">Lincolns Inn Treasurer</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1612-01-27">
+               <desc> Item paid to <persName ref="#recipient"> Mr Barlowe [Embroider] </persName>
+                  for embroidering work in the amount of <measure n="13200"> 13200pence</measure> by
+                     <persName ref="#payer">Lincolns Inn Treasurer</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1612-01-27">
+               <desc> Item paid to <persName ref="#recipient">Mr Inigoe Johnes </persName> for works
+                  for the hall and street in the amount of <measure n="24000"> 24000 pence</measure>
+                  by <persName ref="#payer">Lincolns Inn Treasurer</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1612-01-27">
+               <desc> Item paid to <persName ref="#recipient">Mr Roberte Johnson [musician]
+                  </persName> for musicke and songsin the amount of <measure n="10800"> 10800
+                     pence</measure> by <persName ref="#payer">Lincolns Inn Treasurer</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#goods" when="1612-01-27">
+               <desc> Item paid to <persName ref="#recipient">Mr Roberte Johnes[Haberdasher]
+                  </persName> for feathers and trimings of suites and head attires in the amount of
+                     <measure n="45600"> 45600 pence</measure> by <persName ref="#payer">Lincolns
+                     Inn Treasurer</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1612-01-27">
+               <desc> Item paid to <persName ref="#recipient">John Banckes [Coachmaker] </persName>
+                  for Caroches hier and Coachmakers worke in the amount of <measure n="2400"> 2400
+                     pence</measure> by <persName ref="#payer">Lincolns Inn Treasurer</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1612-01-27">
+               <desc> Item paid to <persName ref="#recipient">Trumpeters</persName> in the amount of
+                     <measure n="2400"> 2400 pence</measure> by <persName ref="#payer">Lincolns Inn
+                     Treasurer</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#goods" when="1612-01-27">
+               <desc> Item paid to <persName ref="#recipient">Charles Hilyarde [porter]</persName>
+                  for a hatt band and feather in the amount of <measure n="120">120 pence</measure>
+                  by <persName ref="#payer">Lincolns Inn Treasurer</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1612-01-27">
+               <desc> Item paid to <persName ref="#recipient">the Actors musicions </persName> for
+                  things the masque night in the amount of <measure n="720"> 720 pence</measure> by
+                     <persName ref="#payer">Lincolns Inn Treasurer</persName>
+               </desc>
+            </event>
+            <event type="debit" ana="#service" when="1612-01-27">
+               <desc> Item paid to <persName ref="#recipient"> </persName> for
+                  in the amount of <measure n="">  pence</measure> by
+                  <persName ref="#payer">Lincolns Inn Treasurer</persName>
+               </desc>
+            </event>
+            
+         </listEvent>
+      </body>
+   </text>
+</TEI>
